@@ -21,7 +21,7 @@
 		text-align: center;
 		background-image:
 			linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-			/* This is the overlay */ url(ramadan1.jpg);
+			/* This is the overlay */ url(ramadan.jpg);
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
