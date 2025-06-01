@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="min-h-screen bg-[url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center text-white"
+	class="min-h-screen bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center text-white"
 >
 	<Navbar />
 
