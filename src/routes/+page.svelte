@@ -8,10 +8,10 @@
 </script>
 
 <!-- Hero Section -->
-<div class="relative min-h-screen text-center text-white overflow-hidden">
+<div class="relative min-h-screen overflow-hidden text-center text-white">
 	<!-- Blurred Background Image Div -->
 	<div
-		class="absolute inset-0 z-[-1] bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat blur-xs brightness-50"
+		class="blur-xs absolute inset-0 z-[-1] bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat brightness-50"
 		aria-hidden="true"
 	></div>
 
@@ -40,11 +40,14 @@
 	<div class="mx-auto flex justify-center px-4 sm:px-8 md:px-12 lg:px-16">
 		<div class="relative rounded-3xl border-2 border-gray-300 sm:border-4">
 			<BorderBeam size={150} duration={12} delay={0} />
-			<img
-				src="https://ik.imagekit.io/rs8qlp3dz/feb%20discord%20general.png"
-				alt="Discord General chat for Future Entrepreneurs Bangladesh"
-				class="h-full w-full rounded-3xl object-contain"
-			/>
+			<a href="https://discord.gg/6Pab63hMAq">
+				<img
+					href=""
+					src="https://ik.imagekit.io/rs8qlp3dz/feb%20discord%20general.png"
+					alt="Discord General chat for Future Entrepreneurs Bangladesh"
+					class="h-full w-full rounded-3xl object-contain"
+				/>
+			</a>
 		</div>
 	</div>
 </div>
@@ -55,11 +58,13 @@
 		<!-- Item 1 -->
 		<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
-				<img
-					src="https://ik.imagekit.io/rs8qlp3dz/image.png"
-					alt="Ministry highlight 1"
-					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-				/>
+				<a href="https://discord.gg/6Pab63hMAq">
+					<img
+						src="https://ik.imagekit.io/rs8qlp3dz/image.png"
+						alt="Share Projects"
+						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					/>
+				</a>
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
@@ -76,11 +81,13 @@
 		<!-- Item 2 (Reversed) -->
 		<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
-				<img
-					src="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748789167126"
-					alt="Ministry highlight 2"
-					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-				/>
+				<a href="https://discord.gg/6Pab63hMAq">
+					<img
+						src="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748789167126"
+						alt="Seek for Advice"
+						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					/>
+				</a>
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
@@ -102,8 +109,17 @@
 					alt="Ministry highlight 3"
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/> -->
-				<video class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none" autoplay controls muted loop>
-					<source src="https://ik.imagekit.io/rs8qlp3dz/meeting_J4SSQczr.mp4?tr=orig" type="video/mp4" />
+				<video
+					class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					autoplay
+					controls
+					muted
+					loop
+				>
+					<source
+						src="https://ik.imagekit.io/rs8qlp3dz/meeting_J4SSQczr.mp4?tr=orig"
+						type="video/mp4"
+					/>
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -170,7 +186,7 @@
 		LETS <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
 	</h2>
 	<a
-		href="YOUR_DISCORD_INVITE_LINK_HERE"
+		href="https://discord.gg/6Pab63hMAq"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="text-xs font-medium uppercase tracking-wide text-orange-400 hover:text-orange-300 sm:text-sm"
