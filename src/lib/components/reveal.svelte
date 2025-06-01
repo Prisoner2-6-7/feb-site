@@ -17,13 +17,14 @@
   </BoxReveal>
 
   <BoxReveal boxColor={"#00E8FF"} duration={0.5}>
-    <div class="mt-[1.5rem]">
+    <div class="mt-[1.5rem] text-[1rem] mx-4">
       <p>
-        -&gt; 20+ A open community where people can
+        A open community where people can
         <span class="font-semibold text-[#00E8FF]"> Connect</span>,
         <span class="font-semibold text-[#00E8FF]"> Network</span>,
         <span class="font-semibold text-[#00E8FF]"> Question</span>, and
-        <span class="font-semibold text-[#00E8FF]"> Get Help</span><br />-&gt; 100% open-source, and customizable
+        <span class="font-semibold text-[#00E8FF]"> Get Help</span>
+        <!-- <br />-&gt; 100% open-source, and customizable -->
       </p>
     </div>
   </BoxReveal>
