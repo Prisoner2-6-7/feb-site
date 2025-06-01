@@ -15,6 +15,7 @@ const config = {
 		},
 		extend: {
 			animation: {
+				"text-gradient": "text-gradient 1.5s linear infinite",
 				"border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
 				marquee: "marquee var(--duration) linear infinite",
 				"marquee-vertical": "marquee-vertical var(--duration) linear infinite",
@@ -61,6 +62,11 @@ const config = {
 				}
 			},
 			keyframes: {
+				"text-gradient": {
+					to: {
+						backgroundPosition: "200% center",
+					},
+				},
 				marquee: {
 					from: { transform: "translateX(0)" },
 					to: { transform: "translateX(calc(-100% - var(--gap)))" },
