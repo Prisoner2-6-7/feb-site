@@ -60,7 +60,7 @@
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
-					<SparklesText text="Our Vision" />
+					<SparklesText text="Share Projects" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
@@ -81,7 +81,7 @@
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
-					<SparklesText text="Community Focus" />
+					<SparklesText text="Seek for Advice" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
@@ -99,14 +99,14 @@
 					alt="Ministry highlight 3"
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/> -->
-				<video class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none" autoplay controls muted>
+				<video class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none" autoplay controls muted loop>
 					<source src="https://ik.imagekit.io/rs8qlp3dz/meeting_J4SSQczr.mp4?tr=orig" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
-					<SparklesText text="Growth Together" />
+					<SparklesText text="Grow Together" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
