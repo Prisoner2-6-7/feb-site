@@ -4,3 +4,8 @@
 </script>
 
 {@render children()}
+<style>
+  body {
+    overflow-x: hidden;
+  }
+</style>

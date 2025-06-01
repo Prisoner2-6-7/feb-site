@@ -23,7 +23,7 @@
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 	<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 		<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-			Future Entrepreneurs Bangladesh <AuroraText>FEB</AuroraText>
+			Future Entrepreneurs Bangladesh - <AuroraText>FEB</AuroraText>
 		</h1>
 		<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
 			In ipsum ullamcorper bibendum fringilla nulla dictum nibh nullam. Duis quam in bibendum
@@ -32,13 +32,13 @@
 			tincidunt sollicitudin.
 		</p>
 	</div>
-	<div class="mx-auto flex max-w-3xl items-end justify-center px-4 sm:px-8 md:px-12 lg:px-16">
-		<div class="relative w-full rounded-3xl border-2 border-gray-300 sm:border-4">
+	<div class="mx-auto flex justify-center px-4 sm:px-8 md:px-12 lg:px-16">
+		<div class="relative rounded-3xl border-2 border-gray-300 sm:border-4">
 			<BorderBeam size={150} duration={12} delay={0} />
 			<img
 				src="https://ik.imagekit.io/rs8qlp3dz/feb%20discord%20general.png"
 				alt="Discord General chat for Future Entrepreneurs Bangladesh"
-				class="h-auto w-full rounded-3xl object-contain"
+				class="h-full w-full rounded-3xl object-contain"
 			/>
 		</div>
 	</div>
