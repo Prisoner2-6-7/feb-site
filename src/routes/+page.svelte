@@ -33,13 +33,13 @@
 	</div>
 	<div class="mx-32 flex items-end justify-center">
 		<div
-			class="relative  rounded-3xl border border-gray-700/70 "
+			class="relative rounded-3xl border-4 "
 		>
 			<BorderBeam size={150} duration={12} />
 			<img
 				src="https://ik.imagekit.io/rs8qlp3dz/feb%20discord%20general.png"
 				alt="Interior view of a church altar with a cross"
-				class=" rounded-3xl"
+				class="rounded-3xl"
 			/>
 		</div>
 	</div>
