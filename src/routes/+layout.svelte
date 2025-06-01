@@ -3,7 +3,7 @@
 	let { children } = $props();
 </script>
 
-<head>
+<svelte:head>
 	<meta property="og:title" content="Future Entrepreneurs Bangladesh" />
 	<meta
 		property="og:description"
@@ -14,7 +14,7 @@
 		content="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748797350404"
 	/>
 	<meta property="og:url" content="https://feb-umber.vercel.app/" />
-</head>
+</svelte:head>
 
 {@render children()}
 
