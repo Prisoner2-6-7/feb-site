@@ -17,7 +17,7 @@
   </BoxReveal>
 
   <BoxReveal boxColor={"#00E8FF"} duration={0.5}>
-    <div class="mt-[1.5rem] mx-4">
+    <div class="mt-[1.5rem] mx-4 mb-4">
       <p>
         -&gt; A open community where people can
         <span class="font-semibold text-[#00E8FF]"> Connect</span>,
