@@ -112,12 +112,12 @@
 				<video
 					class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					autoplay
-					controls
 					muted
 					loop
+					playsinline
 				>
 					<source
-						src="https://ik.imagekit.io/rs8qlp3dz/meeting_J4SSQczr.mp4?tr=orig"
+						src="https://ik.imagekit.io/rs8qlp3dz/feb003.mp4?tr=orig"
 						type="video/mp4"
 					/>
 					Your browser does not support the video tag.
@@ -183,7 +183,7 @@
 	<h2
 		class="mb-3 text-2xl font-extrabold uppercase leading-tight text-white sm:text-3xl md:mb-4 md:text-4xl lg:text-5xl"
 	>
-		LETS <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
+		LET'S <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
 	</h2>
 	<a
 		href="https://discord.gg/6Pab63hMAq"

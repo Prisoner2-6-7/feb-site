@@ -19,7 +19,7 @@
   <BoxReveal boxColor={"#00E8FF"} duration={0.5}>
     <div class="mt-[1.5rem] text-[1rem] mx-4">
       <p>
-        A open community where people can
+        An open community where people can
         <span class="font-semibold text-[#00E8FF]"> Connect</span>,
         <span class="font-semibold text-[#00E8FF]"> Network</span>,
         <span class="font-semibold text-[#00E8FF]"> Question</span>, and
