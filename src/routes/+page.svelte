@@ -56,7 +56,7 @@
 				<div class=" md:p-8">
 					<SparklesText />
 				</div>
-				<p class="text-center font-bold leading-relaxed text-gray-700">
+				<p class="text-center font-bold leading-relaxed text-gray-700 px-20">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
 					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
 					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
@@ -74,7 +74,7 @@
 				<div class=" md:p-8">
 					<SparklesText />
 				</div>
-				<p class="text-center font-bold leading-relaxed text-gray-700">
+				<p class="text-center font-bold leading-relaxed text-gray-700 px-20">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
 					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
 					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
@@ -92,7 +92,7 @@
 				<div class=" md:p-8">
 					<SparklesText />
 				</div>
-				<p class="text-center font-bold leading-relaxed text-gray-700">
+				<p class="text-center font-bold leading-relaxed text-gray-700 px-20">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
 					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
 					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
