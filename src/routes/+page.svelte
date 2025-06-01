@@ -5,6 +5,7 @@
 	// import GradualSpacing from '$lib/components/GradualSpacing.svelte'; // Not used in the template below
 	import BorderBeam from '$lib/components/BorderBeam.svelte';
 	import SparklesText from '$lib/components/SparklesText.svelte';
+	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
 </script>
 
 <!-- Hero Section -->
@@ -136,6 +137,8 @@
 		</div>
 	</div>
 </div>
+
+<MarqueeExample/>
 
 <!-- Section 4: YouTube Video -->
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
