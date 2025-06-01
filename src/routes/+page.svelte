@@ -13,7 +13,9 @@
 >
 	<Navbar />
 
-	<div class="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4 pt-16 sm:pt-24 md:pt-32">
+	<div
+		class="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4 pt-16 sm:pt-24 md:pt-32"
+	>
 		<!-- Adjusted top padding for Navbar height and mobile -->
 		<Reveal />
 	</div>
@@ -46,12 +48,12 @@
 
 <!-- Section 3: Image and Text Alternating Layout -->
 <div class="min-h-screen bg-amber-50 py-12 sm:py-16 md:py-20">
-	<div class="mx-auto max-w-6xl space-y-16 px-4 sm:px-6 lg:px-8 sm:space-y-24 md:space-y-32">
+	<div class="mx-auto max-w-6xl space-y-16 px-4 sm:space-y-24 sm:px-6 md:space-y-32 lg:px-8">
 		<!-- Item 1 -->
 		<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<img
-					src="https://media.discordapp.net/attachments/1244616153716752445/1377970217896120361/Screenshot_2025-05-30-17-21-28-41_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=683ce085&is=683b8f05&hm=b71ec0c754836feda5f42400dd8dea70a5fe22e1a2966da08aa29f5262364591&=&format=webp&width=512&height=696"
+					src="https://ik.imagekit.io/rs8qlp3dz/image.png"
 					alt="Ministry highlight 1"
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/>
@@ -72,7 +74,7 @@
 		<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<img
-					src="https://media.discordapp.net/attachments/1244616153716752445/1377970217896120361/Screenshot_2025-05-30-17-21-28-41_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=683ce085&is=683b8f05&hm=b71ec0c754836feda5f42400dd8dea70a5fe22e1a2966da08aa29f5262364591&=&format=webp&width=512&height=696"
+					src="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748789167126"
 					alt="Ministry highlight 2"
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/>
@@ -92,11 +94,15 @@
 		<!-- Item 3 -->
 		<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
-				<img
+				<!-- <img
 					src="https://media.discordapp.net/attachments/1244616153716752445/1377970217896120361/Screenshot_2025-05-30-17-21-28-41_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=683ce085&is=683b8f05&hm=b71ec0c754836feda5f42400dd8dea70a5fe22e1a2966da08aa29f5262364591&=&format=webp&width=512&height=696"
 					alt="Ministry highlight 3"
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-				/>
+				/> -->
+				<video class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none" autoplay controls muted>
+					<source src="https://ik.imagekit.io/rs8qlp3dz/meeting_J4SSQczr.mp4?tr=orig" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
 			</div>
 			<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 				<div class="mb-4 md:p-0">
@@ -116,7 +122,7 @@
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 	<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 		<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-			Watch Our Latest Event <AuroraText>Highlights</AuroraText>
+			Watch Our Latest <AuroraText>Podcast</AuroraText>
 		</h1>
 		<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
 			In ipsum ullamcorper bibendum fringilla nulla dictum nibh nullam. Duis quam in bibendum
@@ -126,7 +132,9 @@
 		</p>
 	</div>
 	<div class="mx-auto flex max-w-3xl items-end justify-center px-4 sm:px-8 md:px-12 lg:px-16">
-		<div class="relative w-full overflow-hidden rounded-3xl border-2 border-gray-300 pt-[56.25%] sm:border-4">
+		<div
+			class="relative w-full overflow-hidden rounded-3xl border-2 border-gray-300 pt-[56.25%] sm:border-4"
+		>
 			<!-- 16:9 Aspect Ratio -->
 			<BorderBeam size={150} duration={12} delay={0} />
 			<iframe
@@ -153,10 +161,15 @@
 	style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://ik.imagekit.io/rs8qlp3dz/invitebanner.jpg?updatedAt=1748780851735');"
 	role="banner"
 >
-	<h2 class="mb-3 text-2xl font-extrabold uppercase leading-tight text-white sm:text-3xl md:mb-4 md:text-4xl lg:text-5xl">
+	<h2
+		class="mb-3 text-2xl font-extrabold uppercase leading-tight text-white sm:text-3xl md:mb-4 md:text-4xl lg:text-5xl"
+	>
 		LETS <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
 	</h2>
-	<a href="YOUR_DISCORD_INVITE_LINK_HERE" target="_blank" rel="noopener noreferrer"
+	<a
+		href="YOUR_DISCORD_INVITE_LINK_HERE"
+		target="_blank"
+		rel="noopener noreferrer"
 		class="text-xs font-medium uppercase tracking-wide text-orange-400 hover:text-orange-300 sm:text-sm"
 	>
 		CLICK HERE TO JOIN OUR DISCORD
