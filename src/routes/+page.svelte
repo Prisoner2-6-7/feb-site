@@ -8,15 +8,18 @@
 </script>
 
 <!-- Hero Section -->
-<div
-	class="min-h-screen bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center text-white"
->
-	<Navbar />
-
+<div class="relative min-h-screen text-center text-white overflow-hidden">
+	<!-- Blurred Background Image Div -->
 	<div
-		class="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4 pt-16 sm:pt-24 md:pt-32"
-	>
-		<!-- Adjusted top padding for Navbar height and mobile -->
+		class="absolute inset-0 z-[-1] bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat blur-xs brightness-50"
+		aria-hidden="true"
+	></div>
+
+	<!-- Actual Content -->
+	<Navbar />
+	<div class="relative z-[1] flex min-h-[calc(100vh-4rem)] items-center justify-center pb-48">
+		<!-- Added relative z-[1] to ensure content is above the pseudo-element if Navbar has z-index issues -->
+		<!-- Removed mb-20, using pb-20 on the container instead for better control -->
 		<Reveal />
 	</div>
 </div>
