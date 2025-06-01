@@ -110,7 +110,7 @@
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/> -->
 				<video
-					class="h-[362.02px] w-[370px] max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					class="h-[362.02px] w-[370px]  rounded-lg object-cover"
 					autoplay
 					muted
 					loop
@@ -155,7 +155,6 @@
 			class="relative w-full overflow-hidden rounded-3xl border-2 border-gray-300 pt-[56.25%] sm:border-4"
 		>
 			<!-- 16:9 Aspect Ratio -->
-			<BorderBeam size={150} duration={12} delay={0} />
 			<iframe
 				class="absolute left-0 top-0 h-full w-full rounded-3xl"
 				src="https://www.youtube.com/embed/1VcytY556E8?si=mXfH-8Alv5ql_Plb"
