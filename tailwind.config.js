@@ -14,6 +14,9 @@ const config = {
 			}
 		},
 		extend: {
+			animation: {
+				"border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+			},
 			colors: {
 				"color-1": "hsl(var(--color-1))",
 				"color-2": "hsl(var(--color-2))",
@@ -55,6 +58,11 @@ const config = {
 				}
 			},
 			keyframes: {
+				"border-beam": {
+					"100%": {
+						"offset-distance": "100%",
+					},
+				},
 				"aurora-border": {
 					"0%, 100%": { borderRadius: "37% 29% 27% 27% / 28% 25% 41% 37%" },
 					"25%": { borderRadius: "47% 29% 39% 49% / 61% 19% 66% 26%" },
