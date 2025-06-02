@@ -5,10 +5,9 @@
 </script>
 
 <nav class="navbar relative flex items-center justify-between bg-transparent p-6">
-	<!-- <div> -->
 	<img class="h-20 w-20" src="logo.gif" alt="Logo" />
 
-	<!-- Nav Links -->
+	<!-- Nav links for pc-->
 	<ul class="hidden gap-10 font-extrabold text-white md:flex">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">About</a></li>
@@ -16,7 +15,6 @@
 		<li><a href="#">Contact</a></li>
 	</ul>
 	
-	<!-- </div> -->
 	<ButtonMagnetic />
 
 
@@ -27,7 +25,7 @@
 		</svg>
 	</button>
 
-	<!-- Mobile Menu -->
+	<!-- Mobile -->
 	{#if isOpen}
 		<ul
 			class="absolute left-0 top-full z-50 flex w-full flex-col items-center gap-6 bg-white/20 py-6 font-extrabold backdrop-blur-lg md:hidden"

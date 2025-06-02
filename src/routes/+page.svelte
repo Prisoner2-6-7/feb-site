@@ -206,7 +206,7 @@
 	<h2
 		class="mb-3 text-2xl font-extrabold uppercase leading-tight text-white sm:text-3xl md:mb-4 md:text-4xl lg:text-5xl"
 	>
-		LET'S <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
+		LET'S CONNECT AND GROW TOGETHER
 	</h2>
 	<FooterAction/>
 </div>
