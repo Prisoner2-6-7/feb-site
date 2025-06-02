@@ -15,7 +15,7 @@
 		{
 			name: 'Matthews Ankon Baroi', // Demo Name
 			// username: "@Jodd",
-			body: 'SWE engineer working for countries one of top 5 companies.', // Demo company one-line description
+			body: 'SWE engineer working for country\'s one of top 5 companies.', // Demo company one-line description
 			img: 'https://ik.imagekit.io/rs8qlp3dz/akonmember.png',
 			url: 'https://www.linkedin.com/in/matthews-ankon-baroi/'
 		},
@@ -29,24 +29,31 @@
 		{
 			name: 'Tashrifur Rahman', // Demo Name
 			// username: "@pablo",
-			body: 'Social media manager world reknowned NGO.', // Demo company one-line description
+			body: 'Social media manager at world renowned NGO.', // Demo company one-line description
 			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.png',
 			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
+		// {
+		// 	name: 'Cyrus Anushirvan Faizi', // Demo Name
+		// 	// username: "@Saloni",
+		// 	body: 'Lawyer Turned Entrepreneur.', // Demo company one-line description
+		// 	img: 'https://ik.imagekit.io/rs8qlp3dz/lawyer.png',
+		// 	url: 'https://www.linkedin.com/in/faizicyrus/'
+		// },
 		{
-			name: 'Edward Engineer', // Demo Name
-			// username: "@Saloni",
-			body: 'Revolutionizing e-commerce with personalized shopping.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/jenny',
-			url: 'https://google.com'
-		},
-		{
-			name: 'Fiona Founder', // Demo Name
+			name: 'Rochie Peter Gomes', // Demo Name
 			// username: "@Bhai",
 			body: 'Building the next generation of collaborative tools.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/james',
-			url: 'https://google.com'
-		}
+			img: 'https://ik.imagekit.io/rs8qlp3dz/peter.png',
+			url: 'https://www.linkedin.com/in/rochiepg17/'
+		},
+		{
+			name: 'Global Horizons', // Demo Name
+			// username: "@Bhai",
+			body: 'Look no further for full support to study and travel abroad.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/GlobalMembers.png',
+			url: 'https://www.facebook.com/globalhorizons.bd/'
+		},
 	];
 
 	let firstRow = reviews.slice(0, reviews.length / 2);
