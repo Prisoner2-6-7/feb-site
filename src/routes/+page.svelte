@@ -6,15 +6,35 @@
 	import BorderBeam from '$lib/components/BorderBeam.svelte';
 	import SparklesText from '$lib/components/SparklesText.svelte';
 	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
+
+	let isIOS = false;
+
+	// Check for iPhone or iOS
+	if (typeof navigator !== 'undefined') {
+		isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+	}
 </script>
 
 <!-- Hero Section -->
 <div class="relative min-h-screen overflow-hidden text-center text-white">
 	<!-- Blurred Background Image Div -->
-<div
-	class="absolute inset-0 z-[-1] w-full h-full bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-center bg-no-repeat bg-fixed brightness-50 blur-xs"
-	aria-hidden="true"
-></div>
+	{#if isIOS}
+		<!-- changed line here: Show <img> for iPhones -->
+		<img
+			src="ramadan.webp"
+			srcset="ramadan.webp, https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg"
+			alt="Background"
+			class="absolute inset-0 z-[-1] h-full w-full object-cover blur-sm brightness-50"
+			aria-hidden="true"
+		/>
+	{:else}
+		<!-- changed line here: Use bg-fixed only for non-iOS -->
+		<div
+			class="blur-xs absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat brightness-50"
+			style="background-image: url('ramadan.webp'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
+			aria-hidden="true"
+		></div>
+	{/if}
 
 	<!-- Actual Content -->
 	<Navbar />
@@ -111,16 +131,13 @@
 					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 				/> -->
 				<video
-					class="h-[362.02px] w-[370px]  rounded-lg object-cover"
+					class="h-[362.02px] w-[370px] rounded-lg object-cover"
 					autoplay
 					muted
 					loop
 					playsinline
 				>
-					<source
-						src="https://ik.imagekit.io/rs8qlp3dz/feb003.mp4?tr=orig"
-						type="video/mp4"
-					/>
+					<source src="https://ik.imagekit.io/rs8qlp3dz/feb003.mp4?tr=orig" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -138,8 +155,7 @@
 	</div>
 </div>
 
-
-<MarqueeExample/>
+<MarqueeExample />
 
 <!-- Section 4: YouTube Video -->
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
