@@ -85,7 +85,7 @@
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<a href="https://discord.gg/6Pab63hMAq">
 					<img
-						src="https://ik.imagekit.io/rs8qlp3dz/image.png"
+						src="https://ik.imagekit.io/rs8qlp3dz/projects.png"
 						alt="Share Projects"
 						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					/>
@@ -108,7 +108,7 @@
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<a href="https://discord.gg/6Pab63hMAq">
 					<img
-						src="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748789167126"
+						src="https://ik.imagekit.io/rs8qlp3dz/questions"
 						alt="Seek for Advice"
 						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					/>

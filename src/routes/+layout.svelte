@@ -11,7 +11,7 @@
 	/>
 	<meta
 		property="og:image"
-		content="https://ik.imagekit.io/rs8qlp3dz/image.png?updatedAt=1748797350404"
+		content="https://ik.imagekit.io/rs8qlp3dz/image(1).png"
 	/>
 	<meta property="og:url" content="https://feb-umber.vercel.app/" />
 </svelte:head>
