@@ -89,9 +89,7 @@
 					<SparklesText text="Share Projects" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
-					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
-					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
+					Showcase your latest creations and discoveries with the community! Share your projects for others to see, get feedback, collaborate and be inspired.
 				</p>
 			</div>
 		</div>
@@ -112,9 +110,7 @@
 					<SparklesText text="Seek for Advice" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
-					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
-					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
+					Connect with experienced entrepreneurs and experts who can offer valuable insights, share their knowledge, and provide mentorship to help you navigate your journey. 
 				</p>
 			</div>
 		</div>
@@ -143,9 +139,7 @@
 					<SparklesText text="Grow Together" />
 				</div>
 				<p class="text-base font-medium leading-relaxed text-gray-700 sm:text-lg">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum asperiores
-					consectetur quam! Tenetur repellendus nostrum molestiae in corporis, tempora debitis
-					perferendis tempore fugiat itaque hic porro consequuntur ea adipisci?
+					Join quarterly event meetups to collaboration and get invaluable insights into various industries. Network with peers, share experiences, and learn from experts to expand your knowledge base, discover new opportunities, and collectively advance your professional growth. 
 				</p>
 			</div>
 		</div>
@@ -161,11 +155,7 @@
 			Watch Our Latest <AuroraText>Podcast</AuroraText>
 		</h1>
 		<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
-			In ipsum ullamcorper bibendum fringilla nulla dictum nibh nullam. Duis quam in bibendum
-			gravida tristique dis elementum facilisis tristique. Nunc, dictumst eget purus interdum sed
-			lorem ut non. Tellus diam praesent duis morbi et enim magna nam donec. Vitae, blandit ac
-			tincidunt sollicitudin.
-		</p>
+			Joining our podcast, where you can engage in direct conversations and connect with fellow members on a personal level. Which provides a unique opportunity to discuss ideas, share experiences, and build meaningful relationships within our community.		</p>
 	</div>
 	<div class="mx-auto flex max-w-3xl items-end justify-center px-4 sm:px-8 md:px-12 lg:px-16">
 		<div
