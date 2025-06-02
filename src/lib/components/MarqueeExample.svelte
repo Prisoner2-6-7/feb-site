@@ -30,7 +30,7 @@
 			name: 'Tashrifur Rahman', // Demo Name
 			// username: "@pablo",
 			body: 'Social media manager at a world-renowned NGO.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.png',
+			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.jpg?updatedAt=1748891670215',
 			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
 		// {

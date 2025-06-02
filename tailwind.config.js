@@ -15,6 +15,7 @@ const config = {
 		},
 		extend: {
 			animation: {
+				gradient: "gradient 8s linear infinite",
 				"text-gradient": "text-gradient 1.5s linear infinite",
 				"border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
 				marquee: "marquee var(--duration) linear infinite",
@@ -62,6 +63,11 @@ const config = {
 				}
 			},
 			keyframes: {
+				gradient: {
+					to: {
+						"background-position": "200% center",
+					},
+				},
 				"text-gradient": {
 					to: {
 						backgroundPosition: "200% center",

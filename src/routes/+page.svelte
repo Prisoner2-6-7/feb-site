@@ -6,7 +6,7 @@
 	import BorderBeam from '$lib/components/BorderBeam.svelte';
 	import SparklesText from '$lib/components/SparklesText.svelte';
 	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
-
+	import FooterAction from '$lib/components/FooterAction.svelte';
 	let isIOS = false;
 
 	// Check for iPhone or iOS
@@ -208,12 +208,5 @@
 	>
 		LET'S <br class="sm:hidden" /> CONNECT AND GROW TOGETHER
 	</h2>
-	<a
-		href="https://discord.gg/6Pab63hMAq"
-		target="_blank"
-		rel="noopener noreferrer"
-		class="text-xs font-medium uppercase tracking-wide text-orange-400 hover:text-orange-300 sm:text-sm"
-	>
-		CLICK HERE TO JOIN OUR DISCORD
-	</a>
+	<FooterAction/>
 </div>
