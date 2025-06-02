@@ -30,7 +30,7 @@
 	{:else}
 		<!-- changed line here: Use bg-fixed only for non-iOS -->
 		<div
-			class="blur-xs absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat brightness-50"
+			class="absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat blur-sm brightness-50"
 			style="background-image: url('ramadan.webp'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
 			aria-hidden="true"
 		></div>
@@ -52,10 +52,14 @@
 			Future Entrepreneurs Bangladesh - <AuroraText>FEB</AuroraText>
 		</h1>
 		<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
-			In ipsum ullamcorper bibendum fringilla nulla dictum nibh nullam. Duis quam in bibendum
-			gravida tristique dis elementum facilisis tristique. Nunc, dictumst eget purus interdum sed
-			lorem ut non. Tellus diam praesent duis morbi et enim magna nam donec. Vitae, blandit ac
-			tincidunt sollicitudin.
+			Ambitious people are rare, so if everyone is mixed together randomly, as they tend to be early
+			in people's lives, then the ambitious ones won't have many ambitious peers.
+			When you take people like this and put them together with other ambitious people, they bloom like
+			dying plants given water.
+			Probably most ambitious people are starved for the sort of encouragement they'd get from ambitious
+			peers, whatever their age."<br />
+			– Paul Graham<br />
+			Co-founder, Y Combinator
 		</p>
 	</div>
 	<div class="mx-auto flex justify-center px-4 sm:px-8 md:px-12 lg:px-16">
