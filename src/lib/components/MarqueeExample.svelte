@@ -15,7 +15,7 @@
 		{
 			name: 'Matthews Ankon Baroi', // Demo Name
 			// username: "@Jodd",
-			body: 'SWE engineer working for country\'s one of top 5 companies.', // Demo company one-line description
+			body: 'SWE engineer working for one of the country\'s top 5 companies', // Demo company one-line description
 			img: 'https://ik.imagekit.io/rs8qlp3dz/akonmember.png',
 			url: 'https://www.linkedin.com/in/matthews-ankon-baroi/'
 		},
@@ -29,7 +29,7 @@
 		{
 			name: 'Tashrifur Rahman', // Demo Name
 			// username: "@pablo",
-			body: 'Social media manager at world renowned NGO.', // Demo company one-line description
+			body: 'Social media manager at a world-renowned NGO.', // Demo company one-line description
 			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.png',
 			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
