@@ -11,10 +11,10 @@
 <!-- Hero Section -->
 <div class="relative min-h-screen overflow-hidden text-center text-white">
 	<!-- Blurred Background Image Div -->
-	<div
-		class="blur-xs absolute inset-0 z-[-1] bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-fixed bg-center bg-no-repeat brightness-50"
-		aria-hidden="true"
-	></div>
+<div
+	class="absolute inset-0 z-[-1] w-full h-full bg-[url('ramadan.webp'),url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg')] bg-cover bg-center bg-no-repeat bg-fixed brightness-50 blur-xs"
+	aria-hidden="true"
+></div>
 
 	<!-- Actual Content -->
 	<Navbar />
