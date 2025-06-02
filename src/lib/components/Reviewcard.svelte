@@ -11,7 +11,7 @@
 <a href="{url}" target="_blank">
 	<figure
 		class={cn(
-			'relative w-64 cursor-pointer overflow-hidden rounded-2xl border p-4',
+			'relative w-64 cursor-pointer overflow-hidden rounded-2xl border p-4','w-[256px] h-[114px]',
 			// light styles
 			'border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]',
 			// dark styles
@@ -19,7 +19,7 @@
 		)}
 	>
 		<div class="flex flex-row items-center gap-2">
-			<img class="rounded-full" width="32" height="32" alt="" src={img} />
+			<img class="rounded-full w-8 h-8 object-cover" alt="" src={img} />
 			<div class="flex flex-col">
 				<!-- svelte-ignore a11y-structure -->
 				<figcaption class="text-sm font-medium dark:text-white">

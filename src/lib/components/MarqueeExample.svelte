@@ -6,32 +6,32 @@
 
 	const reviews = [
 		{
-			name: 'Alex Innovator', // Demo Name
+			name: 'Minhazul Hayat Khan', // Demo Name
 			// username: "@Bhide",
-			body: 'Pioneering AI solutions for a smarter tomorrow.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/jack',
-			url: 'https://google.com'
+			body: 'Enthusiastic helper good guy.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/MinhajMembers.png?updatedAt=1748891614122',
+			url: 'https://minhazul.com/'
 		},
 		{
-			name: 'Brenda Builder', // Demo Name
+			name: 'Matthews Ankon Baroi', // Demo Name
 			// username: "@Jodd",
-			body: 'Your trusted partner in sustainable energy.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/jill',
-			url: 'https://google.com'
+			body: 'SWE engineer working for countries one of top 5 companies.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/akonmember.png',
+			url: 'https://www.linkedin.com/in/matthews-ankon-baroi/'
 		},
 		{
-			name: 'Charles Connector', // Demo Name
+			name: 'Eureka Labs', // Demo Name
 			// username: "@Pokie",
-			body: 'Crafting beautiful and intuitive user experiences.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/john',
-			url: 'https://google.com'
+			body: 'Crafting next generation military hardware.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/eurekalabsMember.png',
+			url: 'https://eurekaforall.com/'
 		},
 		{
-			name: 'Diana Developer', // Demo Name
+			name: 'Tashrifur Rahman', // Demo Name
 			// username: "@pablo",
-			body: 'Delivering cutting-edge cloud infrastructure globally.', // Demo company one-line description
-			img: 'https://avatar.vercel.sh/jane',
-			url: 'https://google.com'
+			body: 'Social media manager world reknowned NGO.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.png',
+			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
 		{
 			name: 'Edward Engineer', // Demo Name
