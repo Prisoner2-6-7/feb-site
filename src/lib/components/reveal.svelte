@@ -2,7 +2,7 @@
     import BoxReveal from "$lib/components/BoxReveal.svelte";
 </script>
 <div
-  class="h-full w-full max-w-[50rem] items-center justify-center overflow-hidden bg-white/0 rounded-3xl "> <!-- backdrop-blur-sm backdrop-contrast-50 backdrop-grayscale-50 -->
+  class="flex flex-col h-full w-full max-w-[50rem] items-center justify-center overflow-hidden bg-white/0 rounded-3xl "> <!-- backdrop-blur-sm backdrop-contrast-50 backdrop-grayscale-50 -->
   <BoxReveal boxColor={"#00E8FF"} duration={0.5}>
     <p class="text-[3.5rem] font-semibold">
       Future <span class="text-[#00E8FF] ">Entrepreneurs</span> Bangladesh

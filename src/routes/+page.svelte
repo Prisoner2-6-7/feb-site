@@ -2,7 +2,6 @@
 	import Navbar from '$lib/components/navbar.svelte';
 	import Reveal from '$lib/components/reveal.svelte';
 	import AuroraText from '$lib/components/AuroraText.svelte';
-	// import GradualSpacing from '$lib/components/GradualSpacing.svelte'; // Not used in the template below
 	import BorderBeam from '$lib/components/BorderBeam.svelte';
 	import SparklesText from '$lib/components/SparklesText.svelte';
 	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
@@ -17,9 +16,7 @@
 
 <!-- Hero Section -->
 <div class="relative min-h-screen overflow-hidden text-center text-white">
-	<!-- Blurred Background Image Div -->
 	{#if isIOS}
-		<!-- changed line here: Show <img> for iPhones -->
 		<img
 			src="ramadan.webp"
 			srcset="ramadan.webp, https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg"
@@ -28,7 +25,6 @@
 			aria-hidden="true"
 		/>
 	{:else}
-		<!-- changed line here: Use bg-fixed only for non-iOS -->
 		<div
 			class="absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat blur-sm brightness-50"
 			style="background-image: url('ramadan.webp'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
@@ -36,16 +32,13 @@
 		></div>
 	{/if}
 
-	<!-- Actual Content -->
 	<Navbar />
-	<div class="relative z-[1] flex min-h-[calc(100vh-4rem)] items-center justify-center pb-48">
-		<!-- Added relative z-[1] to ensure content is above the pseudo-element if Navbar has z-index issues -->
-		<!-- Removed mb-20, using pb-20 on the container instead for better control -->
+	<div class="Reveal relative z-[1] flex min-h-[calc(100vh-4rem)] items-center justify-center pb-48">
 		<Reveal />
 	</div>
 </div>
 
-<!-- Section 2: Intro Text and Discord Image -->
+<!-- Intro Text and Discord Image -->
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 	<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 		<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
