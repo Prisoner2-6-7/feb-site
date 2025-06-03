@@ -4,16 +4,7 @@
 </script>
 
 <svelte:head>
-	<meta property="og:title" content="Future Entrepreneurs Bangladesh" />
-	<meta
-		property="og:description"
-		content="An community where like minded peoples connect with each other."
-	/>
-	<meta
-		property="og:image"
-		content="https://ik.imagekit.io/rs8qlp3dz/previewImage.png"
-	/>
-	<meta property="og:url" content="https://feb-umber.vercel.app/" />
+	
 </svelte:head>
 
 {@render children()}
