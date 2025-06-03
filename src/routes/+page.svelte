@@ -18,8 +18,8 @@
 <div class="relative min-h-screen overflow-hidden text-center text-white">
 	{#if isIOS}
 		<img
-			src="ramadan.webp"
-			srcset="ramadan.webp, https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg"
+			src="ramadan.jpg"
+			srcset="ramadan.jpg, https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg"
 			alt="Background"
 			class="absolute inset-0 z-[-1] h-full w-full object-cover blur-sm brightness-50"
 			aria-hidden="true"
@@ -27,7 +27,7 @@
 	{:else}
 		<div
 			class="absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat blur-sm brightness-50"
-			style="background-image: url('ramadan.webp'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
+			style="background-image: url('ramadan.jpg'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
 			aria-hidden="true"
 		></div>
 	{/if}
@@ -60,8 +60,7 @@
 			<BorderBeam size={150} duration={12} delay={0} />
 			<a href="https://discord.gg/6Pab63hMAq">
 				<img
-					href=""
-					src="https://ik.imagekit.io/rs8qlp3dz/feb%20discord%20general.png"
+					src="discord_general.png"
 					alt="Discord General chat for Future Entrepreneurs Bangladesh"
 					class="h-full w-full rounded-3xl object-contain"
 				/>
@@ -78,7 +77,7 @@
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<a href="https://discord.gg/6Pab63hMAq">
 					<img
-						src="https://ik.imagekit.io/rs8qlp3dz/projects.png"
+						src="projects.png"
 						alt="Share Projects"
 						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					/>
@@ -93,13 +92,12 @@
 				</p>
 			</div>
 		</div>
-<!-- https://ik.imagekit.io/rs8qlp3dz/questions -->
-		<!-- Item 2 (Reversed) -->
+
 		<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<a href="https://discord.gg/6Pab63hMAq">
-					<img
-						src="ramadan.jpg"
+					<enhanced:img
+						src="/static/questions.png"
 						alt="Seek for Advice"
 						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					/>
@@ -118,11 +116,6 @@
 		<!-- Item 3 -->
 		<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
-				<!-- <img
-					src="https://media.discordapp.net/attachments/1244616153716752445/1377970217896120361/Screenshot_2025-05-30-17-21-28-41_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=683ce085&is=683b8f05&hm=b71ec0c754836feda5f42400dd8dea70a5fe22e1a2966da08aa29f5262364591&=&format=webp&width=512&height=696"
-					alt="Ministry highlight 3"
-					class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-				/> -->
 				<video
 					class="h-[362.02px] w-[370px] rounded-lg object-cover"
 					autoplay
@@ -130,7 +123,7 @@
 					loop
 					playsinline
 				>
-					<source src="https://ik.imagekit.io/rs8qlp3dz/feb003.mp4?tr=orig" type="video/mp4" />
+					<source src="event.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -183,7 +176,7 @@
     bg-center p-4 text-center
     sm:h-80 md:h-96
   "
-	style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://ik.imagekit.io/rs8qlp3dz/invitebanner.jpg?updatedAt=1748780851735');"
+	style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('invitebanner.jpg'), url('https://ik.imagekit.io/rs8qlp3dz/invitebanner.jpg?updatedAt=1748780851735');"
 	role="banner"
 >
 	<h2
