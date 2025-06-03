@@ -19,7 +19,7 @@
 		)}
 	>
 		<div class="flex flex-row items-center gap-2">
-			<img class="rounded-full w-8 h-8 object-cover" alt="" src={img} />
+			<img class="rounded-full w-8 h-8 object-cover" alt="Members Profile" src={img} />
 			<div class="flex flex-col">
 				<!-- svelte-ignore a11y-structure -->
 				<figcaption class="text-sm font-medium dark:text-white">

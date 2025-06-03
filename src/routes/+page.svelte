@@ -77,13 +77,11 @@
 		<div class="mx-auto flex justify-center px-4 sm:px-8 md:px-12 lg:px-16">
 			<div class="relative rounded-3xl border-2 border-gray-300 sm:border-4">
 				<BorderBeam size={150} duration={12} delay={0} />
-				<a href="https://discord.gg/6Pab63hMAq">
 					<img
 						src="discord_general.png"
 						alt="Discord General chat for Future Entrepreneurs Bangladesh"
 						class="h-full w-full rounded-3xl object-contain"
 					/>
-				</a>
 			</div>
 		</div>
 	</div>
@@ -94,13 +92,11 @@
 			<!-- Item 1 -->
 			<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
-					<a href="https://discord.gg/6Pab63hMAq">
 						<img
 							src="projects.png"
 							alt="Share Projects"
 							class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 						/>
-					</a>
 				</div>
 				<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 					<div class="mb-4 md:p-0">
@@ -115,13 +111,11 @@
 
 			<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
-					<a href="https://discord.gg/6Pab63hMAq">
 						<enhanced:img
 							src="/static/questions.png"
 							alt="Seek for Advice"
 							class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 						/>
-					</a>
 				</div>
 				<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 					<div class="mb-4 md:p-0">
