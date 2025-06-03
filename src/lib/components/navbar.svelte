@@ -8,7 +8,7 @@
 
 <nav class="navbar relative flex items-center justify-between bg-transparent p-6">
 	
-	<img class="h-20 w-20" src="logo.gif" alt="Logo" />
+	<img class="h-20 w-20 rounded" src="logo.gif" alt="Logo" />
 	<!-- <ShiftingDropdown /> -->
 	<Slidetab/>
 

@@ -45,7 +45,7 @@
 
 		<Navbar />
 		<div
-			class="Reveal relative z-[1] flex flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center pb-48"
+			class="Reveal relative z-[1] flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center pb-48"
 		>
 			<Reveal />
 			<div class="pt-20">

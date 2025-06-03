@@ -16,7 +16,7 @@
       --border-radius: {borderRadius}px;
     "
 	class={cn(
-		'relative grid min-h-[60px] w-fit min-w-[300px] place-items-center rounded-[var(--border-radius)] bg-black/30 p-3 font-extrabold text-white dark:bg-black dark:text-white',
+		'relative grid min-h-[60px] w-fit min-w-[300px] place-items-center rounded-[var(--border-radius)] bg-black/30 p-3 font-bold text-xl text-white dark:bg-black dark:text-white',
 		className
 	)}
 >

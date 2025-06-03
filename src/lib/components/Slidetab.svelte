@@ -41,7 +41,7 @@
         left = left;
         opacity = 0;
       }}
-      class="relative mx-auto flex w-fit rounded-full border-2 border-blac p-1"
+      class="relative mx-auto flex w-fit rounded-full border-blac p-1"
     >
       {#each navs as item}
         <li
@@ -67,9 +67,15 @@
       >
         <li
           use:motion
-          class="absolute z-0 h-7 rounded-full bg-neutral-600 md:h-12"
+          class="button-background border-2 absolute z-0 h-7 rounded-full bg-neutral-600 md:h-12"
         ></li>
       </Motion>
     </ul>
   </div>
+
+  <style>
+    .button-background {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(153, 153, 153, 0.12) 100%)
+    }
+  </style>
   
