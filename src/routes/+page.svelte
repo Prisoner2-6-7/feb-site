@@ -93,13 +93,13 @@
 				</p>
 			</div>
 		</div>
-
+<!-- https://ik.imagekit.io/rs8qlp3dz/questions -->
 		<!-- Item 2 (Reversed) -->
 		<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 			<div class="w-full md:w-1/2 lg:w-2/5">
 				<a href="https://discord.gg/6Pab63hMAq">
 					<img
-						src="https://ik.imagekit.io/rs8qlp3dz/questions"
+						src="ramadan.jpg"
 						alt="Seek for Advice"
 						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
 					/>
