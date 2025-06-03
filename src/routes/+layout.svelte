@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	export const prerender = true;
 	let { children } = $props();
 </script>
 
@@ -19,7 +20,4 @@
 {@render children()}
 
 <style>
-	body {
-		overflow-x: hidden;
-	}
 </style>

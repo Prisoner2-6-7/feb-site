@@ -148,11 +148,11 @@
 
 <MarqueeExample />
 
-<!-- Section 4: YouTube Video -->
+<!-- YouTube Video -->
 <div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 	<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 		<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-			Watch Our Latest <AuroraText>Podcast</AuroraText>
+			Watch Community <AuroraText>Podcast</AuroraText>
 		</h1>
 		<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
 			Joining our podcast, where you can engage in direct conversations and connect with fellow members on a personal level. Which provides a unique opportunity to discuss ideas, share experiences, and build meaningful relationships within our community.		</p>
