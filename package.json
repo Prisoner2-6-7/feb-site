@@ -45,6 +45,7 @@
 		]
 	},
 	"dependencies": {
+		"lenis-svelte": "^0.2.0",
 		"svelte-inview": "^4.0.4",
 		"svelte-motion": "^0.12.2"
 	}
