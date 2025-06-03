@@ -6,8 +6,10 @@
 	import SparklesText from '$lib/components/SparklesText.svelte';
 	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
 	import FooterAction from '$lib/components/FooterAction.svelte';
+	import SimpleCardVariant1 from '$lib/components/card/SimpleCardVariant1.svelte';
+	import SchineBorder from '$lib/components/SchineBorder.svelte';
 	import { lenis } from 'lenis-svelte';
-
+	import ShiftingDropdown from '$lib/components/shiftingDropDown/ShiftingDropdown.svelte';
 	const root = lenis.instance('root');
 	// $effect(() => {
 	// 	$root?.on('scroll', () => {
@@ -43,9 +45,16 @@
 
 		<Navbar />
 		<div
-			class="Reveal relative z-[1] flex min-h-[calc(100vh-4rem)] items-center justify-center pb-48"
+			class="Reveal relative z-[1] flex flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center pb-48"
 		>
 			<Reveal />
+			<div class="pt-20">
+				<a href="https://discord.com/invite/6Pab63hMAq" target="_blank">
+					<SchineBorder />
+				</a>
+			</div>
+
+			<!-- <SimpleCardVariant1/> -->
 		</div>
 	</div>
 
