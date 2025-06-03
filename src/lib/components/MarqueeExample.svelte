@@ -10,48 +10,55 @@
 			// username: "@Bhide",
 			body: 'Enthusiastic helper good guy.', // Demo company one-line description
 			img: 'https://ik.imagekit.io/rs8qlp3dz/MinhajMembers.png?updatedAt=1748891614122',
+			img: 'members/MinhajMembers.png',
 			url: 'https://minhazul.com/'
 		},
 		{
 			name: 'Matthews Ankon Baroi', // Demo Name
 			// username: "@Jodd",
 			body: 'SWE engineer working for one of the country\'s top 5 companies', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/akonmember.png',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/akonmember.png',
+			img: 'members/akonmember.png',
 			url: 'https://www.linkedin.com/in/matthews-ankon-baroi/'
 		},
 		{
 			name: 'Eureka Labs', // Demo Name
 			// username: "@Pokie",
 			body: 'Crafting next generation military hardware.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/eurekalabsMember.png',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/eurekalabsMember.png',
+			img: 'members/eurekalabsMember.png',
 			url: 'https://eurekaforall.com/'
 		},
 		{
 			name: 'Tashrifur Rahman', // Demo Name
 			// username: "@pablo",
 			body: 'Social media manager at a world-renowned NGO.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.jpg?updatedAt=1748891670215',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.jpg?updatedAt=1748891670215',
+			img: 'members/Tash.jpg',
 			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
 		{
 			name: 'Cyrus Anushirvan Faizi', // Demo Name
 			// username: "@Saloni",
 			body: 'Lawyer Turned Entrepreneur.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/lawyer.png',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/lawyer.png',
+			img: 'members/lawyer.webp',
 			url: 'https://www.linkedin.com/in/faizicyrus/'
 		},
 		{
 			name: 'Rochie Peter Gomes', // Demo Name
 			// username: "@Bhai",
 			body: 'Building the next generation of collaborative tools.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/peter.png',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/peter.png',
+			img: 'members/peter.png',
 			url: 'https://www.linkedin.com/in/rochiepg17/'
 		},
 		{
 			name: 'Global Horizons', // Demo Name
 			// username: "@Bhai",
 			body: 'Look no further for full support to study and travel abroad.', // Demo company one-line description
-			img: 'https://ik.imagekit.io/rs8qlp3dz/GlobalMembers.png',
+			// img: 'https://ik.imagekit.io/rs8qlp3dz/GlobalMembers.png',
+			img: 'members/GlobalMembers.png',
 			url: 'https://www.facebook.com/globalhorizons.bd/'
 		},
 	];
