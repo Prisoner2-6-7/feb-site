@@ -33,13 +33,13 @@
 			img: 'https://ik.imagekit.io/rs8qlp3dz/Tash.jpg?updatedAt=1748891670215',
 			url: 'https://www.linkedin.com/in/tashrifur-rahman-337073141/'
 		},
-		// {
-		// 	name: 'Cyrus Anushirvan Faizi', // Demo Name
-		// 	// username: "@Saloni",
-		// 	body: 'Lawyer Turned Entrepreneur.', // Demo company one-line description
-		// 	img: 'https://ik.imagekit.io/rs8qlp3dz/lawyer.png',
-		// 	url: 'https://www.linkedin.com/in/faizicyrus/'
-		// },
+		{
+			name: 'Cyrus Anushirvan Faizi', // Demo Name
+			// username: "@Saloni",
+			body: 'Lawyer Turned Entrepreneur.', // Demo company one-line description
+			img: 'https://ik.imagekit.io/rs8qlp3dz/lawyer.png',
+			url: 'https://www.linkedin.com/in/faizicyrus/'
+		},
 		{
 			name: 'Rochie Peter Gomes', // Demo Name
 			// username: "@Bhai",
