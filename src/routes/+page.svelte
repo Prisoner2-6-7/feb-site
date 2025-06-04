@@ -77,11 +77,11 @@
 		<div class="mx-auto flex justify-center px-4 sm:px-8 md:px-12 lg:px-16">
 			<div class="relative rounded-3xl border-2 border-gray-300 sm:border-4">
 				<BorderBeam size={150} duration={12} delay={0} />
-					<img
-						src="discord_general.png"
-						alt="Discord General chat for Future Entrepreneurs Bangladesh"
-						class="h-full w-full rounded-3xl object-contain"
-					/>
+				<img
+					src="discord_general.png"
+					alt="Discord General chat for Future Entrepreneurs Bangladesh"
+					class="h-full w-full rounded-3xl object-contain"
+				/>
 			</div>
 		</div>
 	</div>
@@ -92,11 +92,11 @@
 			<!-- Item 1 -->
 			<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
-						<img
-							src="projects.png"
-							alt="Share Projects"
-							class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-						/>
+					<img
+						src="projects.png"
+						alt="Share Projects"
+						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					/>
 				</div>
 				<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 					<div class="mb-4 md:p-0">
@@ -111,11 +111,11 @@
 
 			<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
-						<enhanced:img
-							src="/static/questions.png"
-							alt="Seek for Advice"
-							class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
-						/>
+					<enhanced:img
+						src="/static/questions.png"
+						alt="Seek for Advice"
+						class="h-auto w-full max-w-md rounded-lg object-cover shadow-md md:max-w-none"
+					/>
 				</div>
 				<div class="w-full text-center md:w-1/2 md:text-left lg:w-3/5">
 					<div class="mb-4 md:p-0">
@@ -162,9 +162,9 @@
 	<!-- YouTube Video -->
 	<div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 		<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
-			<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+			<p class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
 				Watch Community <AuroraText>Discussions</AuroraText>
-			</h1>
+			</p>
 			<p class="mb-8 mt-6 text-base leading-relaxed text-gray-700 sm:mt-8">
 				Joining our podcast, where you can engage in direct conversations and connect with fellow
 				members on a personal level. Which provides a unique opportunity to discuss ideas, share
