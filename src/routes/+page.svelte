@@ -8,6 +8,13 @@
 	import FooterAction from '$lib/components/FooterAction.svelte';
 	import SimpleCardVariant1 from '$lib/components/card/SimpleCardVariant1.svelte';
 	import SchineBorder from '$lib/components/SchineBorder.svelte';
+
+	// page fading
+	import IntersectionObserver from 'svelte-intersection-observer';
+	import { fade } from 'svelte/transition';
+	let node;
+
+	// Page smooth scrolling
 	import { lenis } from 'lenis-svelte';
 	import ShiftingDropdown from '$lib/components/shiftingDropDown/ShiftingDropdown.svelte';
 	const root = lenis.instance('root');
@@ -58,7 +65,7 @@
 		</div>
 	</div>
 
-	<!-- Intro Text and Discord Image -->
+	<!-- Section 2: Intro Text and Discord Image -->
 	<div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
 		<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 			<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
@@ -89,7 +96,8 @@
 	<!-- Section 3: Image and Text Alternating Layout -->
 	<div class="min-h-screen bg-amber-50 py-12 sm:py-16 md:py-20">
 		<div class="mx-auto max-w-6xl space-y-16 px-4 sm:space-y-24 sm:px-6 md:space-y-32 lg:px-8">
-			<!-- Item 1 -->
+
+			<!-- Item Share Projects -->
 			<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
 					<img
@@ -108,7 +116,8 @@
 					</p>
 				</div>
 			</div>
-
+			
+			<!-- Item Seek for Advice -->
 			<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
 					<enhanced:img
@@ -128,7 +137,7 @@
 				</div>
 			</div>
 
-			<!-- Item 3 -->
+			<!-- Item Grow Together -->
 			<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
 					<video
@@ -175,7 +184,6 @@
 			<div
 				class="relative w-full overflow-hidden rounded-3xl border-2 border-gray-300 pt-[56.25%] sm:border-4"
 			>
-				<!-- 16:9 Aspect Ratio -->
 				<iframe
 					class="absolute left-0 top-0 h-full w-full rounded-3xl"
 					src="https://www.youtube.com/embed/1VcytY556E8?si=mXfH-8Alv5ql_Plb"

@@ -11,6 +11,9 @@ importers:
       lenis-svelte:
         specifier: ^0.2.0
         version: 0.2.0(svelte@5.33.11)
+      svelte-intersection-observer:
+        specifier: ^1.0.0
+        version: 1.0.0
       svelte-inview:
         specifier: ^4.0.4
         version: 4.0.4(svelte@5.33.11)
@@ -2032,6 +2035,9 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-intersection-observer@1.0.0:
+    resolution: {integrity: sha512-AoxSog8fSt9sSN8ajMYM1I48ndq+rmPlaZSkJFCRbZ7I3KO8IPX6pl5mewWxdYL1JDI06hHu/7epn3h5tlJV9w==}
 
   svelte-inview@4.0.4:
     resolution: {integrity: sha512-PlXNSHHijvQ6MhmSYUj6cMyS+39NttoTffk7W5WYF8T2tsyLgJnKhyuAF+/hSujbY0vpsmqXaMd2nolEKvR8Kw==}
@@ -4151,6 +4157,8 @@ snapshots:
       postcss-selector-parser: 7.1.0
     optionalDependencies:
       svelte: 5.33.11
+
+  svelte-intersection-observer@1.0.0: {}
 
   svelte-inview@4.0.4(svelte@5.33.11):
     dependencies:
