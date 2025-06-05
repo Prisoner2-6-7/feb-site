@@ -10,6 +10,8 @@
 	// page fading
 	import IntersectionObserver from 'svelte-intersection-observer';
 	import { fade } from 'svelte/transition';
+	let node;
+
 	// Page smooth scrolling
 	import { lenis } from 'lenis-svelte';
 	const root = lenis.instance('root');
