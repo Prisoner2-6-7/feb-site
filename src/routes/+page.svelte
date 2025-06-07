@@ -6,54 +6,45 @@
 	import SparklesText from '$lib/components/SparklesText.svelte';
 	import MarqueeExample from '$lib/components/MarqueeExample.svelte';
 	import FooterAction from '$lib/components/FooterAction.svelte';
-	import SimpleCardVariant1 from '$lib/components/card/SimpleCardVariant1.svelte';
+	// import SimpleCardVariant1 from '$lib/components/card/SimpleCardVariant1.svelte';
 	import SchineBorder from '$lib/components/SchineBorder.svelte';
-
-	// page fading
-	import IntersectionObserver from 'svelte-intersection-observer';
-	import { fade } from 'svelte/transition';
-	let node;
-
-	// Page smooth scrolling
+	// // page fading
+	// import { fade } from 'svelte/transition';
+	// import IntersectionObserver from 'svelte-intersection-observer';
 	import { lenis } from 'lenis-svelte';
-	import ShiftingDropdown from '$lib/components/shiftingDropDown/ShiftingDropdown.svelte';
-	const root = lenis.instance('root');
+
+	// let node;
+
+	//// Page smooth scrolling
+	// import ShiftingDropdown from '$lib/components/shiftingDropDown/ShiftingDropdown.svelte';
+	// const root = lenis.instance('root');
 	// $effect(() => {
 	// 	$root?.on('scroll', () => {
 	// 		console.log('[Lenis root] scrolling...');
 	// 	});
 	// });
-
-	// Check for iPhone or iOS
-	let isIOS = false;
-	if (typeof navigator !== 'undefined') {
-		isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
-	}
 </script>
 
 <main use:lenis>
 	<!-- Hero Section -->
-	<div class="relative min-h-screen overflow-hidden text-center text-white">
-		{#if isIOS}
+	<div
+		class="fixed left-[-20px] right-[-20px] top-[-10px] z-[-1] h-[calc(100vh+20px)] max-h-[calc(100vh+20px)] overflow-hidden"
+	>
+		<div class="h-[calc(100vh+20px)] blur-sm">
 			<img
 				src="ramadan.jpg"
 				srcset="ramadan.jpg, https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg"
 				alt="Background"
-				class="absolute inset-0 z-[-1] h-full w-full object-cover blur-sm brightness-50"
+				class="h-[calc(100vh+20px)] w-auto object-cover brightness-50"
 				aria-hidden="true"
 			/>
-		{:else}
-			<div
-				class="absolute inset-0 z-[-1] h-full w-full bg-cover bg-fixed bg-center bg-no-repeat blur-sm brightness-50"
-				style="background-image: url('ramadan.jpg'), url('https://ik.imagekit.io/rs8qlp3dz/ramadan.jpg');"
-				aria-hidden="true"
-			></div>
-		{/if}
-
+		</div>
+	</div>
+	<div
+		class="relative flex max-h-screen min-h-screen flex-col items-center justify-center overflow-hidden text-center text-white"
+	>
 		<Navbar />
-		<div
-			class="Reveal relative z-[1] flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center pb-48"
-		>
+		<div class="Reveal relative z-[1] flex flex-col items-center justify-center">
 			<Reveal />
 			<div class="pt-20">
 				<a href="https://discord.com/invite/6Pab63hMAq" target="_blank">
@@ -66,7 +57,7 @@
 	</div>
 
 	<!-- Section 2: Intro Text and Discord Image -->
-	<div class="min-h-screen bg-white py-12 sm:py-16 md:py-20">
+	<div class="z-[2] min-h-screen bg-white py-12 sm:py-16 md:py-20">
 		<div class="mx-auto max-w-4xl p-4 sm:p-6 md:p-8">
 			<h1 class="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
 				Future Entrepreneurs Bangladesh - <AuroraText>FEB</AuroraText>
@@ -96,7 +87,6 @@
 	<!-- Section 3: Image and Text Alternating Layout -->
 	<div class="min-h-screen bg-amber-50 py-12 sm:py-16 md:py-20">
 		<div class="mx-auto max-w-6xl space-y-16 px-4 sm:space-y-24 sm:px-6 md:space-y-32 lg:px-8">
-
 			<!-- Item Share Projects -->
 			<div class="flex flex-col items-center gap-6 md:flex-row md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
@@ -116,7 +106,7 @@
 					</p>
 				</div>
 			</div>
-			
+
 			<!-- Item Seek for Advice -->
 			<div class="flex flex-col items-center gap-6 md:flex-row-reverse md:gap-8 lg:gap-12">
 				<div class="w-full md:w-1/2 lg:w-2/5">
