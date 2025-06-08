@@ -6,8 +6,8 @@
 	// import ButtonMagnetic from './ButtonMagnetic.svelte';
 </script>
 
-<nav class="navbar absolute left-0 right-0 top-0 z-10 bg-transparent">
-	<div class="relative flex w-full items-center justify-between p-6">
+<nav class="navbar absolute left-0 right-0 top-0 z-10">
+	<div class="container relative flex w-full items-center justify-between">
 		<img class="h-20 w-20 rounded" src="logo.gif" alt="Logo" />
 		<!-- <ShiftingDropdown /> -->
 		<Slidetab />
